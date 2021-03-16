@@ -1,0 +1,15 @@
+{
+  "name": "prisma-nestjs-graphql-angular",
+  "private": true,
+  "scripts": {
+    "build": "lerna run --scope backend build && lerna run --scope frontend build",
+    "dev": "lerna run --parallel dev",
+    "test": "lerna run --parallel test"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "devDependencies": {
+    "lerna": "^4.0.0"
+  }
+}
